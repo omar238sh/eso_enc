@@ -26,6 +26,7 @@ cargo build
 
 ## Notes
 
+- Change the default AP credentials before real-world use (see `AP_SSID` and `AP_PASS` in `/home/runner/work/eso_enc/eso_enc/src/main.rs`).
 - The project depends on a local crate path:
   - `encrypt = { path = "../omar-test" }`
 - Make sure that crate exists at the expected path before building.
