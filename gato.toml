@@ -1,0 +1,14 @@
+
+title = "My App Config"
+
+id = "019def0c-66b2-73f2-b4a4-3bf47c7ba7b7"
+
+author = "Gato"
+
+description = "Gato Repo description"
+
+ignore = ["target"]
+
+[compression]
+
+level = 1
