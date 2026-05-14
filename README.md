@@ -2,6 +2,11 @@
 
 ESP32 Rust application that starts a Wi-Fi access point and listens for encrypted UDP commands to control GPIO2 (LED).
 
+## Security warning
+
+- This project currently uses development AP credentials in code.
+- Update `AP_SSID` and `AP_PASS` in `src/main.rs` before real-world use.
+
 ## What it does
 
 - Starts an AP:
@@ -26,7 +31,6 @@ cargo build
 
 ## Notes
 
-- Change the default AP credentials before real-world use (see `AP_SSID` and `AP_PASS` in `/home/runner/work/eso_enc/eso_enc/src/main.rs`).
 - The project depends on a local crate path:
   - `encrypt = { path = "../omar-test" }`
 - Make sure that crate exists at the expected path before building.
